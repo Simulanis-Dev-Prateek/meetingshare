@@ -6,8 +6,8 @@ async function getMeeting() {
         const { default: fetch } = await import('node-fetch');
 
         const API_KEY_SECRET = 'mirotalksfu_default_secret';
-        const MIROTALK_URL = `https://${process.env.Default_URL}/api/v1/meeting`;
-        
+        const MIROTALK_URL = `http://20.219.138.185:3010/api/v1/meeting`;
+
         console.log("process.env.Default_URL",process.env.Default_URL)
         // const MIROTALK_URL = 'http://localhost:3010/api/v1/meeting';
 
